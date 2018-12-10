@@ -688,8 +688,21 @@ z-index: 99;
 /*--------------------*/
 /* SCREENSHOT */
 /*--------------------*/
+@font-face{
+  font-family: hindi;
+  src: url(./assets//fonts//Kruti_Dev_010.ttf)
+}
 
-
+#poooja_details{
+  // background-color: #212121;
+  display: inline;
+  float: left;
+  padding: 70px 0;
+  width: 100%;
+}
+.hindi_text{
+  font-family: hindi;
+}
 #screenshot{
   background-color: #212121;
   display: inline;
@@ -697,6 +710,7 @@ z-index: 99;
   padding: 70px 0;
   width: 100%;
 }
+
 
 
 #screenshot .title,

@@ -7,6 +7,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { FeaturesComponent } from './components/features/features.component';
+import { PoojaDetailsComponent } from './components/pooja-details/pooja-details.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FeaturesComponent } from './components/features/features.component';
     HomepageComponent,
     NavbarComponent,
     ContactUsComponent,
-    FeaturesComponent
+    FeaturesComponent,
+    PoojaDetailsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,30 @@
+ var poojaDetails = [
+    {
+        id:1,
+        name:"Hanuman",
+        details:['sticks','thali','flowers','sad','asd'],
+        image:'../assets/images/app-screenshot.jpg'
+    },
+    {
+        id:2,
+        name:"Hanuman",
+        details:['sticks','thali','flowers','sad','asd'],
+        image:'../assets/images/nexus-6-single.png'
+    },{
+        id:3,
+        name:"Hanuman",
+        details:['sticks','thali','flowers','sad','asd'],
+        image:'../assets/images/app-screenshot.jpg'
+    },{
+        id:4,
+        name:"Hanuman",
+        details:['sticks','thali','flowers','sad','asd'],
+        image:'../assets/images/app-screenshot.jpg'
+    },{
+        id:5,
+        name:"Hanuman",
+        details:['sticks','thali','flowers','sad','asd'],
+        image:'../assets/images/app-screenshot.jpg'
+    }
+]
+export default poojaDetails

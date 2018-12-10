@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomepageComponent } from './homepage/homepage.component'
 import {ContactUsComponent} from './components/contact-us/contact-us.component'
 import {FeaturesComponent} from './components/features/features.component' 
+import { PoojaDetailsComponent } from './components/pooja-details/pooja-details.component';
 const routes: Routes = [
   {
     path : 'home',
@@ -20,6 +21,10 @@ const routes: Routes = [
   {
     path: 'features',
     component: FeaturesComponent
+  },
+  {
+    path: 'poojadetails/:id',
+    component: PoojaDetailsComponent
   }
 
 ];

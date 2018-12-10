@@ -1,0 +1,9 @@
+<div *ngFor = "let data of getDetailsById"> 
+<p>{{data.name}}</p>
+<ul>
+  <li *ngFor = "let des of data.details">
+    <p>{{des}}</p>
+  </li>
+</ul>
+<img src={{data.image}} alt="">
+</div>

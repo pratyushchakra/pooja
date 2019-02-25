@@ -1,0 +1,12 @@
+<ul id="rig">
+    <li *ngFor="let data of poojaDetails">
+        <a class="rig-cell" (click)="openDialog(data)">
+            <img class="rig-img" src={{data.image}} />
+            <span class="rig-overlay"></span>
+            <span class="rig-text">
+                <!-- <button mat-button >{{data.name}}</button> -->
+                <strong style="font-size: 20px">{{data.name}}</strong>
+            </span>
+        </a>
+    </li>
+</ul>

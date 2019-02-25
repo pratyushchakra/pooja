@@ -1,0 +1,19 @@
+<div style="max-width: 500px;">
+    <h2 style="color: black" mat-dialog-title>Requirements For {{data.name}} Pooja</h2>
+    <!-- <hr /> -->
+    <mat-dialog-content class="mat-typography">
+        <!-- <h2 style="color: black">My details</h2> -->
+        <hr />
+        <mat-chip-list *ngFor="let i of data.details">
+            <mat-chip class="width100" color="primary" selected>
+                <p class="chips">
+                    {{i}}
+                </p>
+            </mat-chip>
+        </mat-chip-list>
+    </mat-dialog-content>
+    <mat-dialog-actions align="end">
+        <button color="primary" mat-button mat-dialog-close>Cancel</button>
+        <!-- <button mat-button [mat-dialog-close]="true" cdkFocusInitial>Install</button> -->
+    </mat-dialog-actions>
+</div>

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import poojaDetails from '../Pooja-details'
+import { poojaDetails } from '../Pooja-details'
 @Component({
   selector: 'app-homepage',
   templateUrl: './homepage.component.html',
@@ -8,14 +8,11 @@ import poojaDetails from '../Pooja-details'
 export class HomepageComponent implements OnInit {
 
   constructor() { }
-  details:any = []
-public poojaDetails:any= poojaDetails
-  
+  details: any = []
+  public poojaDetails: any = poojaDetails
+
   ngOnInit() {
-    // poojaDetails.map(val=>{
-    //   console.log('val: ', val);
-    // })
-    
+
   }
 
 }

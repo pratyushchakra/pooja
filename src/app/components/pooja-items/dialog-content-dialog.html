@@ -1,16 +1,22 @@
 <div style="max-width: 500px;">
-    <h2 style="color: black" mat-dialog-title>Requirements For {{data.name}} Pooja</h2>
+    <h2 style="color: black; margin: 0;padding: 0" mat-dialog-title>Requirements For {{data.name}} Pooja</h2>
     <!-- <hr /> -->
     <mat-dialog-content class="mat-typography">
         <!-- <h2 style="color: black">My details</h2> -->
         <hr />
-        <mat-chip-list *ngFor="let i of data.details">
-            <mat-chip class="width100" color="primary" selected>
-                <p class="chips">
-                    {{i}}
-                </p>
-            </mat-chip>
-        </mat-chip-list>
+        <mat-accordion>
+            <mat-expansion-panel *ngFor="let i of data.details | keyvalue">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        {{i.key}}
+                    </mat-panel-title>
+                    <!-- <mat-panel-description>
+                        Currently I am {{panelOpenState ? 'open' : 'closed'}}
+                    </mat-panel-description> -->
+                </mat-expansion-panel-header>
+                <p>{{i.value}}</p>
+            </mat-expansion-panel>
+        </mat-accordion>
     </mat-dialog-content>
     <mat-dialog-actions align="end">
         <button color="primary" mat-button mat-dialog-close>Cancel</button>

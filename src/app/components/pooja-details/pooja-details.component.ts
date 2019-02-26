@@ -15,12 +15,12 @@ export class PoojaDetailsComponent implements OnInit {
   ngOnInit() {
     // return async () => {
     this._Activatedroute.params.subscribe(params => { this.id = params['id']; });
-    this.getDetailsById = poojaDetails.map(val => {
-      if (val.id == this.id) return val
-    })
+    // this.getDetailsById = poojaDetails.map(val => {
+    //   if (val.id == this.id) return val
+    // })
     console.log('this.id: ', this.id);
     console.log('getDetailsById: ', this.getDetailsById);
-    // }
+    }
   }
 
-}
+

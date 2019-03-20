@@ -13,9 +13,9 @@ const routes: Routes = [
     component: HomepageComponent
   },
   {
-    path: '**',
+    path: ' ',
     redirectTo: '/home',
-    // pathMatch: 'full'
+    pathMatch: 'full'
   },
   {
     path: 'contact_us',

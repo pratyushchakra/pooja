@@ -13,7 +13,7 @@ const routes: Routes = [
     component: HomepageComponent
   },
   {
-    path: ' ',
+    path: '',
     redirectTo: '/home',
     pathMatch: 'full'
   },

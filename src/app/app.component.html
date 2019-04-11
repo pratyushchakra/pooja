@@ -1,19 +1,57 @@
-<app-navbar></app-navbar>
-<router-outlet></router-outlet>
-<footer id="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="footer-social">
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-google-plus"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-          </div>
-          <div class="footer-text">
-            <p>Designed by <a href="#">Pratyush Chakra </a></p>
+<div class="pooja-container">
+  <div class="header-top">
+    <div class="tg-container">
+      <div class="tg-column-wrapper clearfix">
+        <div class="left-content">
+          <ul class="contact-info" style="font-weight: bold">
+            <li style="color: black !important"><span><i class=" ab fa fa-map-marker"
+                  style="color: black !important"></i></span>Rourkela, Odisha, India</li>
+            <li style="color: black !important"><span><i class="ab fa fa-phone"
+                  style="color: black !important"></i></span>+91-8249030354</li>
+            <li style="color: black !important"><span><i class=" ab fa fa-envelope"
+                  style="color: black !important"></i></span>poojaongo@gmail.com</li>
+          </ul><!-- contact-info -->
+        </div>
+        <div class="right-content">
+          <div class="menu-social-container">
+            <ul id="menu-social" class="social-menu">
+              <li id="menu-item-190" class="flex menu-item menu-item-type-custom menu-item-object-custom menu-item-190">
+                <i class=" icon fab fa-facebook"></i>
+                <!-- <p class="left">facebook</p> -->
+              </li>
+              <li id="menu-item-191" class="flex menu-item menu-item-type-custom menu-item-object-custom menu-item-191">
+                <i class="icon fab fa-twitter-square"></i>
+                <!-- <p>twitter</p> -->
+              </li>
+              <li id="menu-item-192" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-192">
+                <i class=" icon flex fab fa-google-plus-square"></i>
+                <!-- <p>google</p> -->
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-  </footer>
+  </div>
+  <div class="content">
+    <app-navbar></app-navbar>
+    <router-outlet></router-outlet>
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="footer-social">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-google-plus"></i></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <div class="footer-text">
+              <p>Designed by <a href="#">Pratyush Chakra </a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>

@@ -111,7 +111,7 @@ text-align: center;
 .header-top {
 display: inline;
 float: left;
-padding-top: 50px;
+// padding-top: 50px;
 width: 100%;
 }
 
@@ -760,7 +760,7 @@ bottom: -60px;
 
 #download-app {
 background-attachment: fixed !important;
-// background-image: url("assets/images/download-bg.jpg");
+background-image: url("assets/images/download-bg.jpg");
 background-repeat: repeat;
 background-size: cover;
 color: #ffffff;

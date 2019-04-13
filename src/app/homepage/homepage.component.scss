@@ -1,0 +1,14 @@
+.about_us {
+margin-top: 30px;
+}
+.center {
+    text-align: center;
+}
+.content_padding {
+    padding: 0 150px !important;
+}
+@media (max-width: 600px) {
+    .content_padding {
+        padding: 0 20px !important;
+    }
+}

@@ -11,7 +11,7 @@ ul, li{
 #rig li {
     display: inline-block;
     *display:inline;/*for IE6 - IE7*/
-    width:25%;
+    /* width:25%; */
     vertical-align:middle;
     box-sizing:border-box;
     margin:0;
@@ -93,7 +93,7 @@ display:block;
 
 @media (max-width: 9000px) {
     #rig li {
-        width:25%;
+        width:33%;
     }
 }
 

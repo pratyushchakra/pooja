@@ -19,7 +19,7 @@ export const poojaDetails = [
         ['Offering Naivēdya', 'The food items to be offered to each Deity is predetermined. It is said that every Deity has some favourite food item which is offered as Naivēdya to Him / Her, for example, kheer or shira for Vishnu, modak for Ganapati, payas for Goddess. When this Naivēdya is partaken as prasād, we benefit from the energy of that Deity in it.'],
     ]),
 
-        image: '../assets/images/app-screenshot.jpg'
+        image: '../assets/images/rudraabs.jpg'
     },
     {
         id: 2,
@@ -41,11 +41,11 @@ export const poojaDetails = [
         ['Offering Naivēdya', 'The food items to be offered to each Deity is predetermined. It is said that every Deity has some favourite food item which is offered as Naivēdya to Him / Her, for example, kheer or shira for Vishnu, modak for Ganapati, payas for Goddess. When this Naivēdya is partaken as prasād, we benefit from the energy of that Deity in it.'],
     ]),
 
-        image: '../assets/images/app-screenshot.jpg'
+        image: '../assets/images/hanuman.jpg'
     },
     {
         id: 1,
-        name: "Ghar Pratisha",
+        name: "Saraswati Puja",
         details: new Map([['Nariyal', 'Nariyal is used as offering to god. People break holy coconut infront of the deities and spread the holy water all over.'],
         ['Flowers or Patri', 'Offering Flowers is an important part of Hindu Worship as different Gods & goddesses are known to love certain flowers. It is necessary to offer five part patri to the Deity. This kind of patri denotes the five Cosmic elements, that are – the Absolute Earth, Water, Fire, Air and Ether.'],
         ['Milk ', 'Our forefathers honoured the tradition of offering milk symbolising pure love to the Lord. Offerings we make to the Lord are the conveyorsof our Love to the Lord. Milk is an offering that portrays our deepest love, we are from a hertiage that depended on cows for our livelihood.'],
@@ -63,11 +63,11 @@ export const poojaDetails = [
         ['Offering Naivēdya', 'The food items to be offered to each Deity is predetermined. It is said that every Deity has some favourite food item which is offered as Naivēdya to Him / Her, for example, kheer or shira for Vishnu, modak for Ganapati, payas for Goddess. When this Naivēdya is partaken as prasād, we benefit from the energy of that Deity in it.'],
     ]),
 
-        image: '../assets/images/app-screenshot.jpg'
+        image: '../assets/images/saraswati.jpg'
     },
     {
         id: 1,
-        name: "Akshaya Tritiya",
+        name: "Kali Puja",
         details: new Map([['Nariyal', 'Nariyal is used as offering to god. People break holy coconut infront of the deities and spread the holy water all over.'],
         ['Flowers or Patri', 'Offering Flowers is an important part of Hindu Worship as different Gods & goddesses are known to love certain flowers. It is necessary to offer five part patri to the Deity. This kind of patri denotes the five Cosmic elements, that are – the Absolute Earth, Water, Fire, Air and Ether.'],
         ['Milk ', 'Our forefathers honoured the tradition of offering milk symbolising pure love to the Lord. Offerings we make to the Lord are the conveyorsof our Love to the Lord. Milk is an offering that portrays our deepest love, we are from a hertiage that depended on cows for our livelihood.'],
@@ -85,7 +85,7 @@ export const poojaDetails = [
         ['Offering Naivēdya', 'The food items to be offered to each Deity is predetermined. It is said that every Deity has some favourite food item which is offered as Naivēdya to Him / Her, for example, kheer or shira for Vishnu, modak for Ganapati, payas for Goddess. When this Naivēdya is partaken as prasād, we benefit from the energy of that Deity in it.'],
     ]),
 
-        image: '../assets/images/app-screenshot.jpg'
+        image: '../assets/images/kali.jpg'
     },
     {
         id: 1,
@@ -107,6 +107,6 @@ export const poojaDetails = [
         ['Offering Naivēdya', 'The food items to be offered to each Deity is predetermined. It is said that every Deity has some favourite food item which is offered as Naivēdya to Him / Her, for example, kheer or shira for Vishnu, modak for Ganapati, payas for Goddess. When this Naivēdya is partaken as prasād, we benefit from the energy of that Deity in it.'],
     ]),
 
-        image: '../assets/images/app-screenshot.jpg'
+        image: '../assets/images/viswa.jpg'
     },
 ]
